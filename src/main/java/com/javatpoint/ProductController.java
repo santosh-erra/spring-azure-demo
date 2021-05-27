@@ -18,4 +18,11 @@ public class ProductController {
 //returns the product list
 		return products;
 	}
+
+	@GetMapping(value = "/hi")
+	public String getMessage() {
+
+		return "Welcome to azure";
+
+	}
 }
